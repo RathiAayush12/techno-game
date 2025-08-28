@@ -100,7 +100,7 @@ export default function RightPanel() {
             state.players[buyerId].holdings.length < state.players[buyerId].max &&
             state.phase !== "finished";
           return (
-            <div key={o.id} className="grid two card" style={{padding:8}}>
+            <div key={o.id} className="grid two card" style={{padding:10}}>
               <div>
                 <div><span className="badge">Player {o.sellerId}</span> selling at <b>{o.price}</b></div>
                 <div className="timer-bar" style={{marginTop:6}}>
